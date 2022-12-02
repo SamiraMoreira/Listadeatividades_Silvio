@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio JavaScrip 01</title>
+</head>
+<body>
+    <h1>Professor </h1>
+    <p>Nome: <span id="nomeProfessor"> </span></p>
+    <p>Endereço: <span id="Endereco"> </span></p>
+    <p>Cidade: <span id="cidade"> </span></p>
+    <p>UF: <span id="UF"> </span></p>
+    <p>CEP: <span id="CEP"> </span></p>
+    <p>Telefone: <span id="fone"> </span></p>
+    <p>CPF: <span id="CPF"> </span></p>
+    <P>RG: <span id="RG"> </span></P>
+    <P>Data de nascimento: <span id="dataNasc"> </span></P>
+    <p>Grau de escolaridade: <span id="gEscolaridade"> </span></p>
+    <p>Curso que leciona: <span id="CursoLenciona"> </span></p>
+    
+   
+        <script>
+            let nomeProfessor = prompt("Digite o nome do professor.");
+            let Endereco = prompt("Digite o endereço do professor");
+            let cidade = prompt("Digite a cidade do endereço do professor");
+            let UF = prompt("Digite o Uf do  endereço do professor");
+            let CEP = prompt("Digite o CEP do endereço do professor");
+            let fone = prompt("Digite o fone do professor");
+            let CPF = prompt("Digite o CPF do endereço do professor");
+            let RG = prompt("Digite o RG do professor");
+            let dataNasc = prompt("Digite a data de nascimento do professor");
+            let gEscolaridade = prompt("Digite o grau de escolaridade do professor");
+            let CursoLenciona = prompt ("Digite o curso que o professor leciona")
+
+            document.getElementById("nomeProfessor").innerHTML = nomeProfessor;
+            document.getElementById("endereco").innerHTML = Endereco;
+            document.getElementById("cidade").innerHTML = cidade;
+            document.getElementById("UF").innerHTML = UF;
+            document.getElementById("cep").innerHTML = CEP;
+            document.getElementById("telefone").innerHTML = fone;
+            document.getElementById("cpf").innerHTML = CPF;
+            document.getElementById("rg").innerHTML = RG
+            document.getElementById("datanasc").innerHTML = dataNasc;
+            document.getElementById("gescolaridade").innerHTML = gEscolaridade;
+            document.getElementById("cursoleciona").innerHTML = CursoLenciona;
+        </script>
+
+        
+    
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo 9</title>
+</head>
+<body>
+    <h1>valor das moedas</h1>
+    <p>valor dolar: $ <span id="real"></span></p>
+    <p>valor em real: R$ <span id="dolar"></span></p>
+    <p>conversor de dolar pra real: <span id="valor_dolar"></span> </p>
+
+    <script>
+        let dolar = (5.18);
+        let real = Number (prompt("Digite o valor para converter."));
+        let valor_dolar = (real * dolar);
+
+        document.getElementById("valor_dolar").innerHTML=valor_dolar;
+        document.getElementById("real").innerHTML=real;
+        document.getElementById("dolar").innerHTML=dolar;
+    </script>
+
+
+</body>
+</html>

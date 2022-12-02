@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio8</title>
+
+</head>
+
+<body>
+    <h1>fest food</h1>
+    <p>hot dog 1,00: <span id="hotdog"></span></p>
+    <p>hamburguer 1,30: <span id="hamburgue"></span></p>
+    <p>cheeseburguer 1,50: <span id="cheeseburguer"></span></p>
+    <p>refrigerante em lata 1,00: <span id="refrigerante_em_lata"></span></p>
+    <p>batatas frita 0,80: <span id="batatas_frita"></span></p>
+    <p>total:<span id="total"> </span></p>
+
+    <script>
+        let hotdog  = Number (prompt ("digite o hot dog"));
+        let hamburguer = Number (prompt ("digite o hamburguer"));
+        let cheeseburguer = Number (prompt ("digite o cheeseburguer"));
+        let refrigerante_em_lata = Number (prompt ("digite refrigerante em lata"));
+        let batatas_frita = Number (prompt ("digite batatas frita"));
+        let total =  (hotdog + hamburguer + cheeseburguer + refrigerante_em_lata + batatas_frita);
+
+
+        document.getElementById("hotdog").innerHTML=hotdog;
+        document.getElementById("hamburgue").innerHTML=hamburguer;
+        document.getElementById("cheeseburguer").innerText=cheeseburguer;
+        document.getElementById("refrigerante_em_lata").innerHTML=refrigerante_em_lata;
+        document.getElementById("batatas_frita").innerHTML=batatas_frita;
+        document.getElementById("total").innerHTML=total;
+    </script>
+    
+    

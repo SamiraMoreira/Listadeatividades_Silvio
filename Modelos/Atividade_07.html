@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 7</title>
+</head>
+<body>
+    <h1>conta-corrente</h1></P>
+    <p>nome do correntista: <span id="nomedocorrentista"></span></p>
+    <P>nome do banco: <span id="nomedobanco"></span></P>
+    <p>numero da conta: <span id="numerodaconta"></span></p>
+    <p>valor total de cheques debito: <span id="chequesDeb"></span></p>
+    <P>total de dinheiro e cheques credito: <span id="dinheiro_cheques_credito"></span></P>
+    <P>limite de credito e saldo atual: <span id="limite_de_credito_e_saldo_atual"></span></P>
+
+    <script>
+        let nomedocorrentista = prompt ("digite o nome do correntista");
+        let nomedobanco = prompt ("digite o nome do banco");
+        let numerodaconta = prompt ("digite o numero da conta");
+        let chequesDeb = prompt ("digte o valor total de cheques a debitar");
+        let dinheiro_cheques_credito = prompt ("digite o total de cheques a creditar");
+        let limite_de_credito_e_saldo_atual = prompt ("digite o limite de credito saldo atual");
+
+        document.getElementById("nomedocorrentista").innerHTML=nomedocorrentista;
+        document.getElementById("nomedobanco").innerHTML=nomedobanco;
+        document.getElementById("numerodaconta").innerHTML=numerodaconta;
+        document.getElementById("chequesDeb").innerHTML=chequesDeb;
+        document.getElementById("dinheiro_cheques_credito").innerHTML=dinheiro_cheques_credito;
+        document.getElementById("limite_de_credito_e_saldo_atual").innerHTML=limite_de_credito_e_saldo_atual;
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hora</h1>
+    <p>horas: <span id="hora"></span></p>
+    <p>minutos: <pan id="minutos"></pan></p>
+    <p>segundos: <span id="segundos"></span></p>
+    <p>total: <span id="total"></span></p>
+
+    <script>
+        let hora = Number (prompt ("digite a hora"));
+        let minutos =  Number(prompt ("digite os minutos"));
+        let segundos = Number (prompt ("digite os segundos"));
+        let total = ((hora*60*60)+(minutos*60)+segundos);
+
+        document.getElementById("hora").innerHTML=hora;
+        document.getElementById("minutos").innerHTML=minutos;
+        document.getElementById("segundos").innerHTML=segundos;
+        document.getElementById("total").innerHTML=total;
+    </script>
+</body>
+</html>
